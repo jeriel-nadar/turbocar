@@ -1,0 +1,73 @@
+nav{
+    width: 100%;
+    display: flex;
+     justify-content: space-evenly;
+    padding: 15px 0;
+    margin-left: 10px;
+   
+}
+nav ul li{
+    display:inline-block;
+     position: relative;
+    list-style: none;
+    align-items: center;
+    margin: 10px 5px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(69, 61, 61);
+}
+nav img{
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+}
+nav ul li a:hover{
+     color: #0b0600;
+}
+.banner
+{
+    background-image: url('assets/image/image\ 1.png');
+    height: 900px;
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    top: 30%;
+    left: 12%;
+    position: absolute;
+}
+.content h1 
+{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .search {
+    margin-left: 40px;
+  }
+  .form-check{
+    margin-left: 40px;
+  }
+  .btn-group{
+    margin-left: 40px;
+  }
+  .pickup{
+    margin-left: 40px;
+  }
+  
+
+
+  
